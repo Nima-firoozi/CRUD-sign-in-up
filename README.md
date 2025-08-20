@@ -30,12 +30,10 @@
 
  # SCREEN-SHOT
 <img src="public/ss/4.png" >
-<img src="public/ss/2.png" >
 <img src="public/ss/3.png" >
+<img src="public/ss/2.png" >
 <img src="public/ss/1.png" >
 
 
 
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
