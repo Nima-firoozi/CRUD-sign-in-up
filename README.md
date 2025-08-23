@@ -1,7 +1,7 @@
-# CRUD-sign-in-up
-# <div align="center">Next.js Authentication CRUD Application</div>
 
-<p align="center">
+# <div align="left">Next.js Authentication CRUD Application</div>
+
+<p align="left">
   <img src="https://img.shields.io/badge/Next.js-13.5-black?style=for-the-badge&logo=next.js" alt="Next.js">
   <img src="https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react" alt="React">
   <img src="https://img.shields.io/badge/Formik-yellow?style=for-the-badge&logo=formik" alt="Formik">
