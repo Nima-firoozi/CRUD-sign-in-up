@@ -8,7 +8,7 @@ const lexfont = Lexend({
   subsets: ["latin"],
 });
 
-DONT GIVE UP
+//DONT GIVE UP
 
 
 export const metadata = {
