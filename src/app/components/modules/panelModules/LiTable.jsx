@@ -43,7 +43,7 @@ export default function LiTable() {
         setData([task]);
       })
       .catch((error) => {
-        console.log(error);
+        
         toast.success("Delet unsuccessfully!", {
           position: "top-right",
           autoClose: 3003,
