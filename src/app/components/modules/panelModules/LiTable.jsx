@@ -20,7 +20,7 @@ export default function LiTable() {
   }, [data]);
 
   const del = (id) => {
-    fetch(`https://68875657071f195ca9804edb.mockapi.io/users/`, {
+    fetch(`https://68875657071f195ca9804edb.mockapi.io/users/${id}`, {
       method: "DELETE",
     })
       .then((res) => {
@@ -39,8 +39,23 @@ export default function LiTable() {
           return res.json();
         }
       })
-      .then((task) => {})
-      .catch((error) => {});
+      .then((task) => {
+        setData([task]);
+      })
+      .catch((error) => {
+        console.log(error);
+        toast.success("Delet unsuccessfully!", {
+          position: "top-right",
+          autoClose: 3003,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Bounce,
+        });
+      });
   };
 
   return (
