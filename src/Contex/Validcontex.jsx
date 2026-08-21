@@ -5,10 +5,10 @@ import React, { useState, createContext, useContext } from "react";
 const MyContext = createContext();
 
 export default function ValidProvider({ children }) {
-  const [valid, setValid] = useState(true);
+  const [valid, setValid] = useState(false);
 
   const validTrue = () => {
-    setValid(false);
+    setValid(true);
   };
   const validFalse = () => {
     setValid(false);
