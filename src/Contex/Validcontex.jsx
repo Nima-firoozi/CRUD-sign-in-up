@@ -8,7 +8,7 @@ export default function ValidProvider({ children }) {
   const [valid, setValid] = useState(true);
 
   const validTrue = () => {
-    setValid(true);
+    setValid(false);
   };
   const validFalse = () => {
     setValid(false);
