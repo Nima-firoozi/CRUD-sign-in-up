@@ -5,7 +5,7 @@ import React, { useState, createContext, useContext } from "react";
 const MyContext = createContext();
 
 export default function ValidProvider({ children }) {
-  const [valid, setValid] = useState(false);
+  const [valid, setValid] = useState(false); //Secure sign-up and sign-in functionality
 
   const validTrue = () => {
     setValid(true);
