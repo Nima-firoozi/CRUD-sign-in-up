@@ -7,7 +7,8 @@ const MyContext = createContext();
 export default function UpFormProvider({ children }) {
   const [open, setOpen] = useState(false);
   const [dataUp, setDataUp] = useState({});
-
+//never give up
+  
   const openForm = (data) => {
     setDataUp(data);
     setOpen(true);
